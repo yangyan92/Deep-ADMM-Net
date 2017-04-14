@@ -18,7 +18,7 @@ end
 %DT=rot90(D,2);
 
 load('./mask/mask_20.mat')
-mask = logical( mask );
+mask = logical( ifftshift(mask) );
 Denom1 = zeros(256 , 256) ; Denom1(mask) = 1 ;
 [m ,n] = size(Y);
 if nargin == 3
