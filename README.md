@@ -20,14 +20,10 @@ Usage:<br>
 
 1.For testing the trained network <br>
 
-1). Load trained network with different stages in 'main_ADMM_Net_test.m'
+1). Load trained network with different stages in 'main_ADMM_Net_test.m'<br>
 
-   The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate. 
-
-<br>
-   The models in './net/network_30' are trained from 100 real MR trainging images with 30% sampling 
-
-rate.<br>
+   The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate. <br>
+   The models in './net/network_30' are trained from 100 real MR trainging images with 30% sampling rate.<br>
    
    If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.<br>
 
@@ -37,25 +33,25 @@ rate.<br>
    
 3). Load test image  in  'main_ADMM_Net_test.m'.
 
-   The images in './data/Brain_data' are real-valued brain MR images.
-   The images in './data/Chest_data' are 50 real-valued chest MR testing images in our paper.
+   The images in './data/Brain_data' are real-valued brain MR images.<br>
+   The images in './data/Chest_data' are 50 real-valued chest MR testing images in our paper.<br>
 
-4). Network setting is in  'config.m '.
+4). Network setting is in  'config.m '.<br>
 
-5). To test our ADMM-Net, run 'main_ADMM_Net_test.m'
+5). To test our ADMM-Net, run 'main_ADMM_Net_test.m'<br>
 
 
 <br>
 <br>
 2.For training the networks<br>
 1). The training chest dataset is in './data/ChestTrain_20'.<br>
-    Run "Gen_traindata.m" to generate training data, <br>
+    Run "Gen_traindata.m" to generate training data, 
     and load  corresponding sampling pattern in this operation. <br>
 
 
-2). Modify the network setting and trainging setting in  'config.m '.
+2). Modify the network setting and trainging setting in  'config.m '.<br>
 
-3). To train ADMM-Net by L-BFGS algorithm, run 'main_netTrain.m' .
+3). To train ADMM-Net by L-BFGS algorithm, run 'main_netTrain.m' .<br>
 
 4). After training, the trained network and the training error are saved in './Train_output'.<br>
 
@@ -63,7 +59,7 @@ rate.<br>
 
 ***********************************************************************************************************
  
-The testing result of the demo images.
+The testing result of the demo images.<br>
 
 1) Brain_data1.（20% sampling rate）
 
