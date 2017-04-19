@@ -21,7 +21,11 @@ Usage:<br>
 1.For testing the trained network <br>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1). Load trained network with different stages in main_ADMM_Net_test.m
+=======
+1). Load trained network with different stages in Basic_ADMM_Net_rec.m<br>
+>>>>>>> origin/master
 =======
 1). Load trained network with different stages in Basic_ADMM_Net_rec.m<br>
 >>>>>>> origin/master
@@ -31,6 +35,7 @@ Usage:<br>
    
    If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.<br>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 2). Load trained sampling pattern with different sampling ratios in main_ADMM_Net_test.m
 =======
@@ -49,10 +54,19 @@ Usage:<br>
 
 5). To test our ADMM-Net, run 'main_ADMM_Net_test.m'
 =======
+=======
+2). Load  sampling pattern with different sampling ratios in Basic_ADMM_Net_rec.m<br>
+
+   The mask in './mask/mask_20' is a pseudo radial sampling pattern with 20% sampling rate.<br>
+   
+>>>>>>> origin/master
 3). Load test image  in Basic_ADMM_Net_rec.m<br>
 
    The images in './data/Brain_data' are real-valued brain MR images.<br>
    The images in './data/Chest_data' are 50 real-valued chest MR testing images in our paper.<br>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 4). Network setting is in  './config.m '.<br>
@@ -68,10 +82,16 @@ Usage:<br>
     and load  corresponding sampling pattern in this operation. <br>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 2). Modify the network setting and trainging setting in  'config.m '.
 
 3). To train ADMM-Net by L-BFGS algorithm, run
  'main_netTrain.m' .
+=======
+2). Modify the network setting and trainging setting in  './config.m '.<br>
+
+3). To train ADMM-Net by L-BFGS algorithm, run './L_BFGSnetTrain.m' . <br>
+>>>>>>> origin/master
 =======
 2). Modify the network setting and trainging setting in  './config.m '.<br>
 
