@@ -1,11 +1,13 @@
-ï»? Deep-ADMM-Net
+# Deep-ADMM-Net
 
 ***********************************************************************************************************
 
-This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 2016)<br>
+This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 
+
+2016)<br>
  
 If you use this code, please cite our paper:<br>
-[1] Yan Yang, Jian Sun, Huibin Li, Zongben Xu. Deep ADMM-Net for Compressive Sensing MRIï¼ŒNIPS(2016).<br>
+[1] Yan Yang, Jian Sun, Huibin Li, Zongben Xu. Deep ADMM-Net for Compressive Sensing MRIé”›å­¨IPS(2016).<br>
 [http://gr.xjtu.edu.cn/web/jiansun/publications](http://gr.xjtu.edu.cn/web/jiansun/publications) <br>
 All rights are reserved by the authors.<br>
 
@@ -20,31 +22,21 @@ Usage:<br>
 
 1.For testing the trained network <br>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 1). Load trained network with different stages in main_ADMM_Net_test.m
-=======
-1). Load trained network with different stages in Basic_ADMM_Net_rec.m<br>
->>>>>>> origin/master
-=======
-1). Load trained network with different stages in Basic_ADMM_Net_rec.m<br>
->>>>>>> origin/master
 
-   The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate. <br>
-   The models in './net/network_30' are trained from 100 real MR trainging images with 30% sampling rate.<br>
+   The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate. 
+
+<br>
+   The models in './net/network_30' are trained from 100 real MR trainging images with 30% sampling 
+
+rate.<br>
    
    If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.<br>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-2). Load trained sampling pattern with different sampling ratios in main_ADMM_Net_test.m
-=======
 2). Load  sampling pattern with different sampling ratios in Basic_ADMM_Net_rec.m<br>
->>>>>>> origin/master
 
    The mask in './mask/mask_20' is a pseudo radial sampling pattern with 20% sampling rate.<br>
    
-<<<<<<< HEAD
 3). Load test image  in main_ADMM_Net_test.m
 
    The images in './data/Brain_data' are real-valued brain MR images.
@@ -53,25 +45,6 @@ Usage:<br>
 4). Network setting is in  'config.m '.
 
 5). To test our ADMM-Net, run 'main_ADMM_Net_test.m'
-=======
-=======
-2). Load  sampling pattern with different sampling ratios in Basic_ADMM_Net_rec.m<br>
-
-   The mask in './mask/mask_20' is a pseudo radial sampling pattern with 20% sampling rate.<br>
-   
->>>>>>> origin/master
-3). Load test image  in Basic_ADMM_Net_rec.m<br>
-
-   The images in './data/Brain_data' are real-valued brain MR images.<br>
-   The images in './data/Chest_data' are 50 real-valued chest MR testing images in our paper.<br>
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-
-4). Network setting is in  './config.m '.<br>
-
-5). To test our ADMM-Net, run './Basic_ADMM_Net_rec.m'<br>
 
 
 <br>
@@ -81,22 +54,11 @@ Usage:<br>
     Run "Gen_traindata.m" to generate training data, <br>
     and load  corresponding sampling pattern in this operation. <br>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 2). Modify the network setting and trainging setting in  'config.m '.
 
 3). To train ADMM-Net by L-BFGS algorithm, run
  'main_netTrain.m' .
-=======
-2). Modify the network setting and trainging setting in  './config.m '.<br>
-
-3). To train ADMM-Net by L-BFGS algorithm, run './L_BFGSnetTrain.m' . <br>
->>>>>>> origin/master
-=======
-2). Modify the network setting and trainging setting in  './config.m '.<br>
-
-3). To train ADMM-Net by L-BFGS algorithm, run './L_BFGSnetTrain.m' . <br>
->>>>>>> origin/master
 
 4). After training, the trained network and the training error are saved in './Train_output'.<br>
 
@@ -106,7 +68,7 @@ Usage:<br>
  
 The testing result of the demo images.
 
-1) Brain_data1.ï¼?0% sampling rateï¼?
+1) Brain_data1.ï¼ˆ20% sampling rateï¼‰
 
 |--------------|  re_LOss  |  re_PSnr  |  <br>
 |  net-stage7- |  0.0578   |  35.60    |  <br>
@@ -114,12 +76,17 @@ The testing result of the demo images.
 |  net-stage15 |  0.0561   |  35.85    |  <br>
 
 
-2) Brain_data2.(20% sampling rateï¼?
+2) Brain_data2.(20% sampling rateï¼‰
 
 |--------------|  re_LOss  |  re_PSnr  |  <br>
 |  net-stage7- |  0.0957   |  30.40    |  <br>
 |  net-stage14 |  0.0929   |  30.65    |  <br>
 |  net-stage15 |  0.0927   |  30.67    |  <br>
+
+
+
+
+
 
 
 
