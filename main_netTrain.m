@@ -4,8 +4,13 @@
 %% Copyright (c) 2017 Yan Yang
 %% All rights reserved.
 
-  clear all ;
-  clc;
+clear all ;
+clc;
+addpath('./Train_LBFGS/')
+addpath('./Train_LBFGS/lb')
+addpath('./Train_LBFGS/Matlab')
+addpath('./layersfunction/')
+addpath('./util')
 
 %% Network initialization
 net = InitNet ( );
