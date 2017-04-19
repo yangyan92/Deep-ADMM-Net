@@ -19,7 +19,6 @@ Yan Yang -2017/04/05. More detail, feel free to contact: yangyan92@stu.xjtu.edu.
 Usage:
 
 1.For testing the trained network 
----------------------------------
 
 1). Load trained network with different stages in Basic_ADMM_Net_rec.m
 
@@ -42,10 +41,9 @@ Usage:
 5). To test our ADMM-Net, run './Basic_ADMM_Net_rec.m'
 
 
-\<br>
-\<br>
+<br>
+<br>
 2.For training the networks
----------------------------
 1). The training chest dataset is in './data/ChestTrain_20'.
     Run 
 "Gen_traindata.m" to generate training data,
@@ -66,18 +64,18 @@ The testing result of the demo images.
 
 1) Brain_data1.（20% sampling rate）
 
-| ------------ |  re_LOss  |  re_PSnr  |  \<br>
-|  net-stage7  |  0.0578   |  35.60    |  \<br>
-|  net-stage14 |  0.0562   |  35.83    |  \<br>
-|  net-stage15 |  0.0561   |  35.85    |  \<br>
+| ------------ |  re_LOss  |  re_PSnr  |  <br>
+|  net-stage7  |  0.0578   |  35.60    |  <br>
+|  net-stage14 |  0.0562   |  35.83    |  <br>
+|  net-stage15 |  0.0561   |  35.85    |  <br>
 
 
 2) Brain_data2.(20% sampling rate）
 
-| ------------ |  re_LOss  |  re_PSnr  |  \<br>
-|  net-stage7  |  0.0957   |  30.40    |  \<br>
-|  net-stage14 |  0.0929   |  30.65    |  \<br>
-|  net-stage15 |  0.0927   |  30.67    |  \<br>
+| ------------ |  re_LOss  |  re_PSnr  |  <br>
+|  net-stage7  |  0.0957   |  30.40    |  <br>
+|  net-stage14 |  0.0929   |  30.65    |  <br>
+|  net-stage15 |  0.0927   |  30.67    |  <br>
 
 
 
