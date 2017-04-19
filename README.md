@@ -9,7 +9,7 @@ If you use this code, please cite our paper:<br>
 [http://gr.xjtu.edu.cn/web/jiansun/publications](http://gr.xjtu.edu.cn/web/jiansun/publications) <br>
 All rights are reserved by the authors.<br>
 
-Yan Yang -2017/04/05. More detail, feel free to contact: yangyan92@stu.xjtu.edu.cn<br>
+Yan Yang -2017/04/05. For more detail, feel free to contact: yangyan92@stu.xjtu.edu.cn<br>
 
 
 ***********************************************************************************************************
@@ -25,11 +25,11 @@ Usage:<br>
    The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate. <br>
    The models in './net/network_30' are trained from 100 real MR trainging images with 30% sampling rate.<br>
    
-   If you apply these networks to  reconstruct of other MR images, it is best to re-train the models.<br>
+   If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.<br>
 
-2). Load trained sampling pattern with different sampling ratios in Basic_ADMM_Net_rec.m<br>
+2). Load  sampling pattern with different sampling ratios in Basic_ADMM_Net_rec.m<br>
 
-   The mask in './mask/mask_20' is a pseudo radial sampling patterns with 20% sampling rate.<br>
+   The mask in './mask/mask_20' is a pseudo radial sampling pattern with 20% sampling rate.<br>
    
 3). Load test image  in Basic_ADMM_Net_rec.m<br>
 
@@ -46,7 +46,7 @@ Usage:<br>
 2.For training the networks<br>
 1). The training chest dataset is in './data/ChestTrain_20'.<br>
     Run "Gen_traindata.m" to generate training data, <br>
-    and load  corresponding sampling pattern in these operation. <br>
+    and load  corresponding sampling pattern in this operation. <br>
 
 2). Modify the network setting and trainging setting in  './config.m '.<br>
 
@@ -62,7 +62,7 @@ The testing result of the demo images.
 
 1) Brain_data1.（20% sampling rate）
 
-| ------------ |  re_LOss  |  re_PSnr  |  <br>
+|--------------|  re_LOss  |  re_PSnr  |  <br>
 |  net-stage7- |  0.0578   |  35.60    |  <br>
 |  net-stage14 |  0.0562   |  35.83    |  <br>
 |  net-stage15 |  0.0561   |  35.85    |  <br>
@@ -70,7 +70,7 @@ The testing result of the demo images.
 
 2) Brain_data2.(20% sampling rate）
 
-| ------------ |  re_LOss  |  re_PSnr  |  <br>
+|--------------|  re_LOss  |  re_PSnr  |  <br>
 |  net-stage7- |  0.0957   |  30.40    |  <br>
 |  net-stage14 |  0.0929   |  30.65    |  <br>
 |  net-stage15 |  0.0927   |  30.67    |  <br>
