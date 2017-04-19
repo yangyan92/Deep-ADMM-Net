@@ -2,9 +2,7 @@
 
 ***********************************************************************************************************
 
-This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 
-
-2016)<br>
+This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 2016)<br>
  
 If you use this code, please cite our paper:<br>
 [1] Yan Yang, Jian Sun, Huibin Li, Zongben Xu. Deep ADMM-Net for Compressive Sensing MRI锛孨IPS(2016).<br>
@@ -22,7 +20,7 @@ Usage:<br>
 
 1.For testing the trained network <br>
 
-1). Load trained network with different stages in main_ADMM_Net_test.m
+1). Load trained network with different stages in 'main_ADMM_Net_test.m'
 
    The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate. 
 
@@ -33,11 +31,11 @@ rate.<br>
    
    If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.<br>
 
-2). Load  sampling pattern with different sampling ratios in Basic_ADMM_Net_rec.m<br>
+2). Load  sampling pattern with different sampling ratios in  'main_ADMM_Net_test.m'<br>
 
    The mask in './mask/mask_20' is a pseudo radial sampling pattern with 20% sampling rate.<br>
    
-3). Load test image  in main_ADMM_Net_test.m
+3). Load test image  in  'main_ADMM_Net_test.m'.
 
    The images in './data/Brain_data' are real-valued brain MR images.
    The images in './data/Chest_data' are 50 real-valued chest MR testing images in our paper.
@@ -57,8 +55,7 @@ rate.<br>
 
 2). Modify the network setting and trainging setting in  'config.m '.
 
-3). To train ADMM-Net by L-BFGS algorithm, run
- 'main_netTrain.m' .
+3). To train ADMM-Net by L-BFGS algorithm, run 'main_netTrain.m' .
 
 4). After training, the trained network and the training error are saved in './Train_output'.<br>
 
