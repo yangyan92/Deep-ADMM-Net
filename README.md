@@ -2,7 +2,7 @@
 
 ***********************************************************************************************************
 
-This is a testing and training code for Basic-ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 2016)
+This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 2016)
  
 If you use this code, please cite our papers:
 [1] Yan Yang, Jian Sun, Huibin Li, Zongben Xu. Deep ADMM-Net for Compressive Sensing MRI，NIPS(2016).
@@ -64,7 +64,7 @@ The testing result of the demo images.
 
 1) Brain_data1.（20% sampling rate）
 
-| ------------ |  re_LOss  |  re_PSnr  |
+| ------------ |  re_LOss  |  re_PSnr  |  
 |  net-stage7  |  0.0578   |  35.60    |
 |  net-stage14 |  0.0562   |  35.83    |
 |  net-stage15 |  0.0561   |  35.85    |
