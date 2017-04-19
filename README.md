@@ -4,7 +4,7 @@
 
 This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 2016)<br>
  
-If you use this code, please cite our papers:<br>
+If you use this code, please cite our paper:<br>
 [1] Yan Yang, Jian Sun, Huibin Li, Zongben Xu. Deep ADMM-Net for Compressive Sensing MRI，NIPS(2016).<br>
 [http://gr.xjtu.edu.cn/web/jiansun/publications](http://gr.xjtu.edu.cn/web/jiansun/publications) <br>
 All rights are reserved by the authors.<br>
