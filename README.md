@@ -2,7 +2,7 @@
 
 ***********************************************************************************************************
 
->This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 2016)
+This is a testing and training code for Deep ADMM-Net in "Deep ADMM-Net for Compressive Sensing MRI" (NIPS 2016)
  
 If you use this code, please cite our paper:
 
@@ -24,11 +24,11 @@ Yan Yang -2017/04/05. For more detail, feel free to contact: yangyan92@stu.xjtu.
 1. For testing the trained network 
 
 	1). Load trained network with different stages in main_ADMM_Net_test.m
+	If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.
 
 	 	The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate.
 		The models in './net/network_30' are trained from 100 real MR trainging images with 30% sampling rate.
-   
-   		If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.
+ 
 
 	2). Load  sampling pattern with different sampling ratios in main_ADMM_Net_test.m
 
@@ -47,9 +47,7 @@ Yan Yang -2017/04/05. For more detail, feel free to contact: yangyan92@stu.xjtu.
 2. For training the networks
 
 	1). The training chest dataset is in './data/ChestTrain_20'.
-    	Run 'Gen_traindata.m' to generate training data, 
-
-    	and load  corresponding sampling pattern in this operation. 
+    	    Run 'Gen_traindata.m' to generate training data, and load  corresponding sampling pattern in this operation. 
 
 	2). Modify the network setting and trainging setting in  'config.m '.
 
