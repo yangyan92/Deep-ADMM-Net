@@ -23,7 +23,7 @@ Yan Yang -2017/04/05. For more detail, feel free to contact: yangyan92@stu.xjtu.
 
 1. For testing the trained network 
 
-	1). Load trained network with different stages in main_ADMM_Net_test.m
+	1). Load trained network with different stages in main_ADMM_Net_test.m.<br>
 	If you apply ADMM-Net to  reconstruct  other MR images, it is best to re-train the models.
 
 	 	The models in './net/network_20' are trained from 100 real MR trainging images with 20% sampling rate.
@@ -46,7 +46,7 @@ Yan Yang -2017/04/05. For more detail, feel free to contact: yangyan92@stu.xjtu.
 
 2. For training the networks
 
-	1). The training chest dataset is in './data/ChestTrain_20'.
+	1). The training chest dataset is in './data/ChestTrain_20'.<br>
     	    Run 'Gen_traindata.m' to generate training data, and load  corresponding sampling pattern in this operation. 
 
 	2). Modify the network setting and trainging setting in  'config.m '.
