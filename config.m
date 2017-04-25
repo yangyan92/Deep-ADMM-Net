@@ -6,7 +6,7 @@ nnconfig.Stage = 5;
 nnconfig.Padding = 1;
 nnconfig.LinearLabel = double(-1:0.02:1);
 %% training and testing setting
-nnconfig.EnableGPU = 1;
+nnconfig.EnableGPU = 0;    %first run on GPU always takes longer than subsequent runs
 nnconfig.WeightDecay = 0;
 
 
