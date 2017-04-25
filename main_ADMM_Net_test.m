@@ -3,7 +3,9 @@
 
  clc;
  clear all;
-
+ addpath('./layersfunction/')
+ addpath('./util')
+ 
 %% Load trained network
 load('./net/network_20/net-stage15.mat')
 %% Load data 
